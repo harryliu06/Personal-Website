@@ -8,7 +8,6 @@
 body{
     background-color: #FFF2D8 !important;
     font-family: 'Telegraf', sans-serif !important;
-    display: grid;
 }
 
 .parent{
@@ -49,8 +48,7 @@ img {
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-    position: relative;
-    left: 50%
+    
 }
 
 .btn:hover {
@@ -63,12 +61,12 @@ img {
     text-decoration: none;
 }
 
+
 a:link {
     color: whitesmoke;
     background-color: transparent;
     text-decoration: none;
 }
-
 
 
 a:hover {
@@ -80,10 +78,26 @@ a:hover {
 
 .bottom-footer {
     background-color: #D8E5FF;
+    width: 100%;
 }
 
 .bottom-container {
     background-color: #D8E5FF;
     padding: 50px 0 20px;
+    
+}
+
+@media screen and (max-width: 600px){
+    .parent{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 438px){
+    .bottom-container{
+        position: absolute;
+        width: 100%;
+    }
 }
 
