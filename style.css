@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Telegraf';
+    src: url('./PPTelegraf-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #FFF2D8 !important;
+    font-family: 'Telegraf', sans-serif !important;
+    display: grid;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-template-rows: repeat(1fr 0.5fr);
+    text-align: left;
+    width: 50%;
+    margin: 100px auto 0 auto;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+.profile{
+    border-radius: 100%;
+}
+
+img {
+    object-fit: contain;
+}
+
+.contact{
+    margin-top: 40px;
+}
+
+.btn {
+    background: #A5C3FF;
+    background-image: -webkit-linear-gradient(top, #A5C3FF, #11999e);
+    background-image: -moz-linear-gradient(top, #A5C3FF, #11999e);
+    background-image: -ms-linear-gradient(top, #A5C3FF, #11999e);
+    background-image: -o-linear-gradient(top, #A5C3FF, #11999e);
+    background-image: linear-gradient(to bottom, #A5C3FF, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff !important;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: relative;
+    left: 50%
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+a:link {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+
+a:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+.bottom-footer {
+    background-color: #D8E5FF;
+}
+
+.bottom-container {
+    background-color: #D8E5FF;
+    padding: 50px 0 20px;
+}
+
