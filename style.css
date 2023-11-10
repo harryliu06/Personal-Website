@@ -27,7 +27,7 @@ body{
     column-gap: 2rem;
     align-items: center;
     justify-content: center;
-    place-items: center;
+    place-items: center
 }
 
 
@@ -101,12 +101,11 @@ a:hover {
 
 @media screen and (max-width: 530px){
     .parent{
-        margin-left: 1rem;
-        margin-right: 1rem;
+        
         display: grid;
         grid-template-columns: 1fr;
         width: 100%;
-        padding: 0 2rem 0 2rem
+        padding: 0 1.5rem 0 1.5rem
     }
 }
 
