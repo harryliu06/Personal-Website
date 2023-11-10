@@ -19,13 +19,17 @@ body{
 .parent{
     display: grid;
     grid-template-columns: 1fr 0.5fr;
-    grid-template-rows: repeat(1fr 0.5fr);
+    max-width: 1400px;
     text-align: left;
     width: 50%;
     margin: 100px auto 0 auto;
     row-gap: 2rem;
     column-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
 }
+
 
 .profile{
     border-radius: 100%;
@@ -99,8 +103,10 @@ a:hover {
     .parent{
         margin-left: 1rem;
         margin-right: 1rem;
-        flex: grid;
+        display: grid;
         grid-template-columns: 1fr;
+        width: 100%;
+        padding: 0 2rem 0 2rem
     }
 }
 
